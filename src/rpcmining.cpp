@@ -406,8 +406,8 @@ Value getwork(const Array& params, bool fHelp)
         pblock->vtx[0].vin[0].scriptSig = mapNewBlock[pdata->hashMerkleRoot].second;
         pblock->hashMerkleRoot = pblock->BuildMerkleTree();
 
-        assert(pwalletMain != NULL);
-        return CheckWork(pblock, *pwalletMain, *pMiningKey);
+        //assert(pwalletMain != NULL);
+        //return CheckWork(pblock, *pwalletMain, *pMiningKey);
     }
 }
 
