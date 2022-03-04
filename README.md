@@ -1,3 +1,19 @@
+# Innstall 2022
+sudo apt install libtool gcc autoconf autoconf-archive libboost-all-dev libdb4.8-dev libdb4.8++-dev
+
+autoconf-archive
+
+autoconf
+
+./autogen.sh
+
+./configure
+
+make
+
+make install
+
+
 # Woodcoins 
 
 This is the ultra-stable backbone full node and wallet for woodcoin,
